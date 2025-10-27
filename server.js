@@ -48,7 +48,7 @@ app.get('/next-metro', (req, res) => {
 
 // 404 pour toutes les autres routes
 app.use((req, res) => {
-  res.status(404).json({ error: 'not found' });
+  res.status(404).json({ error: 'Error not found' });
 });
 
 // Démarrer le serveur
